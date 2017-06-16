@@ -1,0 +1,37 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+# relative_permalinks: true
+
+# Setup
+title:            Dr. G
+tagline:          'A Jekyll theme'
+description:      'Under construction...'
+url:              http://www.castiglionis.com
+baseurl:          /
+
+author:
+  name:           'Giacomo Castiglioni'
+  url:            http://www.castiglionis.com
+
+paginate:         5
+
+# Custom vars
+version:          0.0.0
+
+# github:
+#   repo:           https://github.com/poole/hyde
+
+# Gems
+gems:
+  - jekyll-gist
+  - jekyll-paginate
+  - redcarpet
+  - pygments.rb
+
+exclude:
+  - hyde-giacomo.sublime-project
+  - hyde-giacomo.sublime-workspace
