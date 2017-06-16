@@ -22,8 +22,8 @@ paginate:         5
 # Custom vars
 version:          0.0.0
 
-# github:
-#   repo:           https://github.com/poole/hyde
+github:
+  repo:           https://github.com/castigli/castigli.github.io
 
 # Gems
 gems:
