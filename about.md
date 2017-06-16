@@ -3,11 +3,7 @@ layout: page
 title: About
 ---
 
-<p class="message", style="text-align: center;">
-  Welcome! 
-</p>
-
-This is Giacomo Castiglioni personal website. Work in progress... !
+> This is Giacomo Castiglioni personal website. Work in progress... !
 
 <br><br>
 
