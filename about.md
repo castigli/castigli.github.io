@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-> This is Giacomo Castiglioni personal website. Work in progress... !
+> This is Giacomo Castiglioni's personal website. Work in progress... !
 
 <br><br>
 
