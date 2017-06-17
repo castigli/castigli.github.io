@@ -3,12 +3,13 @@ layout: page
 title: About
 ---
 
-> This is Giacomo Castiglioni's personal website. Work in progress... !
+> This is Giacomo Castiglioni's personal website.  
+> Work in progress... !
 
 <br><br>
 
 ## Curriculum vitae
-* [CV]({{ site.url }}/documents/CV_Giacomo_Castiglioni.pdf)
+* [pdf]({{ site.url }}/documents/CV_Giacomo_Castiglioni.pdf)
 
 ## Professional profiles  
 * [linkedin](http://www.linkedin.com/in/giacomo-castiglioni-50885725)  
