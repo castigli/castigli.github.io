@@ -31,7 +31,7 @@ github:
 gems:
   - jekyll-gist
   - jekyll-paginate
-  - redcarpet
+  # - redcarpet
   - pygments.rb
 
 exclude:
