@@ -24,9 +24,9 @@ excerpt_separator: <!--more-->
 # Custom vars
 version:          1.0.0
 
-# # scholar
-# scholar:
-#   bibliography: CV.bib
+  # # scholar
+  # scholar:
+  #   bibliography: CV.bib
 
 github:
   repo:           https://github.com/castigli/castigli.github.io
