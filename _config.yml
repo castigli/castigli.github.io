@@ -1,6 +1,6 @@
 # Dependencies
 markdown:         redcarpet
-highlighter:      pygments
+highlighter:      rouge
 
 # Permalinks
 permalink:        pretty
@@ -24,15 +24,20 @@ excerpt_separator: <!--more-->
 # Custom vars
 version:          1.0.0
 
+# # scholar
+# scholar:
+#   bibliography: CV.bib
+
 github:
   repo:           https://github.com/castigli/castigli.github.io
 
 # Gems
-gems:
+plugins:
   - jekyll-gist
   - jekyll-paginate
-  # - redcarpet
-  - pygments.rb
+  - jekyll/scholar
+  - redcarpet
+  # - pygments.rb
 
 exclude:
   - hyde-giacomo.sublime-project

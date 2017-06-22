@@ -20,6 +20,5 @@ His research interests include turbulence modeling, separated and transitional f
 * [linkedin](http://www.linkedin.com/in/giacomo-castiglioni-50885725)  
 * [researchgate](https://www.researchgate.net/profile/Giacomo_Castiglioni)
 
-
 ## Contacts
 * giacastiglioni[at]gmail[dot]com
