@@ -4,7 +4,7 @@
  <title>Dr. G</title>
  <link href="http://www.castiglionis.com/atom.xml" rel="self"/>
  <link href="http://www.castiglionis.com/"/>
- <updated>2017-06-22T08:05:27-07:00</updated>
+ <updated>2018-03-18T18:26:46-07:00</updated>
  <id>http://www.castiglionis.com</id>
  <author>
    <name>Giacomo Castiglioni</name>
@@ -13,46 +13,46 @@
 
  
  <entry>
-   <title>Cos N</title>
+   <title>Exploratory work - Discontinuous Galerkin with shock capturing.</title>
    <link href="http://www.castiglionis.com/2016/06/01/cosn/"/>
    <updated>2016-06-01T00:00:00-07:00</updated>
    <id>http://www.castiglionis.com/2016/06/01/cosn</id>
-   <content type="html">&lt;blockquote&gt;
-&lt;p&gt;Inviscid Burger&amp;#39;s equation. Discountinous Galerkin with shock capturing.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://www.castiglionis.com/documents/burgers_mix_10_5_LG_dea_shock.gif&quot; alt=&quot;cosn&quot;&gt;&lt;/p&gt;
+   <content type="html">&lt;p&gt;&lt;img src=&quot;http://www.castiglionis.com/documents/burgers_mix_10_5_LG_dea_shock.gif&quot; alt=&quot;cosn&quot;&gt;&lt;/p&gt;
 
 &lt;!--more--&gt;
 
-&lt;p&gt;Gallia est omnis divisa in partes tres, quarum unam incolunt Belgae, aliam Aquitani, tertiam qui ipsorum lingua Celtae, nostra Galli appellantur. Hi omnes lingua, institutis, legibus inter se differunt. Gallos ab Aquitanis Garumna flumen, a Belgis Matrona et Sequana dividit. Horum omnium fortissimi sunt Belgae, propterea quod a cultu atque humanitate provinciae longissime absunt, minimeque ad eos mercatores saepe commeant atque ea quae ad effeminandos animos pertinent important, proximique sunt Germanis, qui trans Rhenum incolunt, quibuscum continenter bellum gerunt. Qua de causa Helvetii quoque reliquos Gallos virtute praecedunt, quod fere cotidianis proeliis cum Germanis contendunt, cum aut suis finibus eos prohibent aut ipsi in eorum finibus bellum gerunt. Eorum una pars, quam Gallos obtinere dictum est, initium capit a flumine Rhodano, continetur Garumna flumine, Oceano, finibus Belgarum, attingit etiam ab Sequanis et Helvetiis flumen Rhenum, vergit ad septentriones. Belgae ab extremis Galliae finibus oriuntur, pertinent ad inferiorem partem fluminis Rheni, spectant in septentrionem et orientem solem. Aquitania a Garumna flumine ad Pyrenaeos montes et eam partem Oceani quae est ad Hispaniam pertinet; spectat inter occasum solis et septentriones.
-Gallia est omnis divisa in partes tres, quarum unam incolunt Belgae, aliam Aquitani, tertiam qui ipsorum lingua Celtae, nostra Galli appellantur. Hi omnes lingua, institutis, legibus inter se differunt. Gallos ab Aquitanis Garumna flumen, a Belgis Matrona et Sequana dividit. Horum omnium fortissimi sunt Belgae, propterea quod a cultu atque humanitate provinciae longissime absunt, minimeque ad eos mercatores saepe commeant atque ea quae ad effeminandos animos pertinent important, proximique sunt Germanis, qui trans Rhenum incolunt, quibuscum continenter bellum gerunt. Qua de causa Helvetii quoque reliquos Gallos virtute praecedunt, quod fere cotidianis proeliis cum Germanis contendunt, cum aut suis finibus eos prohibent aut ipsi in eorum finibus bellum gerunt. Eorum una pars, quam Gallos obtinere dictum est, initium capit a flumine Rhodano, continetur Garumna flumine, Oceano, finibus Belgarum, attingit etiam ab Sequanis et Helvetiis flumen Rhenum, vergit ad septentriones. Belgae ab extremis Galliae finibus oriuntur, pertinent ad inferiorem partem fluminis Rheni, spectant in septentrionem et orientem solem. Aquitania a Garumna flumine ad Pyrenaeos montes et eam partem Oceani quae est ad Hispaniam pertinet; spectat inter occasum solis et septentriones.
-Gallia est omnis divisa in partes tres, quarum unam incolunt Belgae, aliam Aquitani, tertiam qui ipsorum lingua Celtae, nostra Galli appellantur. Hi omnes lingua, institutis, legibus inter se differunt. Gallos ab Aquitanis Garumna flumen, a Belgis Matrona et Sequana dividit. Horum omnium fortissimi sunt Belgae, propterea quod a cultu atque humanitate provinciae longissime absunt, minimeque ad eos mercatores saepe commeant atque ea quae ad effeminandos animos pertinent important, proximique sunt Germanis, qui trans Rhenum incolunt, quibuscum continenter bellum gerunt. Qua de causa Helvetii quoque reliquos Gallos virtute praecedunt, quod fere cotidianis proeliis cum Germanis contendunt, cum aut suis finibus eos prohibent aut ipsi in eorum finibus bellum gerunt. Eorum una pars, quam Gallos obtinere dictum est, initium capit a flumine Rhodano, continetur Garumna flumine, Oceano, finibus Belgarum, attingit etiam ab Sequanis et Helvetiis flumen Rhenum, vergit ad septentriones. Belgae ab extremis Galliae finibus oriuntur, pertinent ad inferiorem partem fluminis Rheni, spectant in septentrionem et orientem solem. Aquitania a Garumna flumine ad Pyrenaeos montes et eam partem Oceani quae est ad Hispaniam pertinet; spectat inter occasum solis et septentriones.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;1D Discontinuous Galerkin Spectral Element Method with shock capturing for inviscid Burger&amp;#39;s equation. A shock sensor is used to identify the shock and artificial dissipation is added in the element/s containing the shock (see Persson and Peraire, AIAA ASME 2006)&lt;/p&gt;
+&lt;/blockquote&gt;
 </content>
  </entry>
  
  <entry>
-   <title>NACA0012</title>
+   <title>Published - LES of an airfoil at moderate Reynolds numbers.</title>
    <link href="http://www.castiglionis.com/2015/05/01/naca/"/>
    <updated>2015-05-01T00:00:00-07:00</updated>
    <id>http://www.castiglionis.com/2015/05/01/naca</id>
-   <content type="html">&lt;blockquote&gt;
-&lt;p&gt;LES of moderate Reynolds numbers. &lt;/p&gt;
-&lt;/blockquote&gt;
+   <content type="html">&lt;!-- ![naca](http://www.castiglionis.com/documents/qt_50_2.png) --&gt;
 
-&lt;!-- ![naca](http://www.castiglionis.com/documents/qt_50_2.png) --&gt;
-
-&lt;video id=&quot;NACA0012&quot; poster=&quot;http://www.castiglionis.com/documents/qt_50_2.png&quot; preload autoplay loop width=&quot;640&quot; height=&quot;360&quot; &gt; 
-   &lt;source src=&quot;http://www.castiglionis.com/documents/qt_50_movie_long.mov&quot;&gt;&lt;/source&gt; 
+&lt;video id=&quot;NACA0012&quot; poster=&quot;http://www.castiglionis.com/documents/qt_50_2.png&quot; preload autoplay loop width=&quot;640&quot; height=&quot;360&quot; &gt;
+   &lt;source src=&quot;http://www.castiglionis.com/documents/qt_50_movie_long.mov&quot;&gt;&lt;/source&gt;
    &lt;source src=&quot;http://www.castiglionis.com/documents/qt_50_movie_long.ogv&quot;&gt;&lt;/source&gt;
-   &lt;source src=&quot;http://www.castiglionis.com/documents/qt_50_movie_long.webm&quot;&gt;&lt;/source&gt; 
+   &lt;source src=&quot;http://www.castiglionis.com/documents/qt_50_movie_long.webm&quot;&gt;&lt;/source&gt;
 &lt;/video&gt;
 
 &lt;!--more--&gt;
 
-&lt;p&gt;Gallia est omnis divisa in partes tres, quarum unam incolunt Belgae, aliam Aquitani, tertiam qui ipsorum lingua Celtae, nostra Galli appellantur. Hi omnes lingua, institutis, legibus inter se differunt. Gallos ab Aquitanis Garumna flumen, a Belgis Matrona et Sequana dividit. Horum omnium fortissimi sunt Belgae, propterea quod a cultu atque humanitate provinciae longissime absunt, minimeque ad eos mercatores saepe commeant atque ea quae ad effeminandos animos pertinent important, proximique sunt Germanis, qui trans Rhenum incolunt, quibuscum continenter bellum gerunt. Qua de causa Helvetii quoque reliquos Gallos virtute praecedunt, quod fere cotidianis proeliis cum Germanis contendunt, cum aut suis finibus eos prohibent aut ipsi in eorum finibus bellum gerunt. Eorum una pars, quam Gallos obtinere dictum est, initium capit a flumine Rhodano, continetur Garumna flumine, Oceano, finibus Belgarum, attingit etiam ab Sequanis et Helvetiis flumen Rhenum, vergit ad septentriones. Belgae ab extremis Galliae finibus oriuntur, pertinent ad inferiorem partem fluminis Rheni, spectant in septentrionem et orientem solem. Aquitania a Garumna flumine ad Pyrenaeos montes et eam partem Oceani quae est ad Hispaniam pertinet; spectat inter occasum solis et septentriones.
-Gallia est omnis divisa in partes tres, quarum unam incolunt Belgae, aliam Aquitani, tertiam qui ipsorum lingua Celtae, nostra Galli appellantur. Hi omnes lingua, institutis, legibus inter se differunt. Gallos ab Aquitanis Garumna flumen, a Belgis Matrona et Sequana dividit. Horum omnium fortissimi sunt Belgae, propterea quod a cultu atque humanitate provinciae longissime absunt, minimeque ad eos mercatores saepe commeant atque ea quae ad effeminandos animos pertinent important, proximique sunt Germanis, qui trans Rhenum incolunt, quibuscum continenter bellum gerunt. Qua de causa Helvetii quoque reliquos Gallos virtute praecedunt, quod fere cotidianis proeliis cum Germanis contendunt, cum aut suis finibus eos prohibent aut ipsi in eorum finibus bellum gerunt. Eorum una pars, quam Gallos obtinere dictum est, initium capit a flumine Rhodano, continetur Garumna flumine, Oceano, finibus Belgarum, attingit etiam ab Sequanis et Helvetiis flumen Rhenum, vergit ad septentriones. Belgae ab extremis Galliae finibus oriuntur, pertinent ad inferiorem partem fluminis Rheni, spectant in septentrionem et orientem solem. Aquitania a Garumna flumine ad Pyrenaeos montes et eam partem Oceani quae est ad Hispaniam pertinet; spectat inter occasum solis et septentriones.
-Gallia est omnis divisa in partes tres, quarum unam incolunt Belgae, aliam Aquitani, tertiam qui ipsorum lingua Celtae, nostra Galli appellantur. Hi omnes lingua, institutis, legibus inter se differunt. Gallos ab Aquitanis Garumna flumen, a Belgis Matrona et Sequana dividit. Horum omnium fortissimi sunt Belgae, propterea quod a cultu atque humanitate provinciae longissime absunt, minimeque ad eos mercatores saepe commeant atque ea quae ad effeminandos animos pertinent important, proximique sunt Germanis, qui trans Rhenum incolunt, quibuscum continenter bellum gerunt. Qua de causa Helvetii quoque reliquos Gallos virtute praecedunt, quod fere cotidianis proeliis cum Germanis contendunt, cum aut suis finibus eos prohibent aut ipsi in eorum finibus bellum gerunt. Eorum una pars, quam Gallos obtinere dictum est, initium capit a flumine Rhodano, continetur Garumna flumine, Oceano, finibus Belgarum, attingit etiam ab Sequanis et Helvetiis flumen Rhenum, vergit ad septentriones. Belgae ab extremis Galliae finibus oriuntur, pertinent ad inferiorem partem fluminis Rheni, spectant in septentrionem et orientem solem. Aquitania a Garumna flumine ad Pyrenaeos montes et eam partem Oceani quae est ad Hispaniam pertinet; spectat inter occasum solis et septentriones.&lt;/p&gt;
+&lt;h2&gt;&lt;a href=&quot;https://www.sciencedirect.com/science/article/pii/S0142727X14000216&quot;&gt;Numerical simulations of separated flows at moderate Reynolds numbers appropriate for turbine blades and unmanned aero vehicles.&lt;/a&gt;&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Flows over airfoils and blades in rotating machinery, for unmanned and micro-aerial vehicles, wind turbines, and propellers consist of a laminar boundary layer near the leading edge that is often followed by a laminar separation bubble and transition to turbulence further downstream. Typical RANS turbulence models are inadequate for such flows. Direct numerical simulation (DNS) is the most reliable, but is also the most computationally expensive alternative. This work assesses the capability of Immersed Boundary (IB) methods and Large Eddy Simulations (LES) to reduce the computational requirements for such flows and still provide high quality results. Two-dimensional and three-dimensional simulations of a laminar separation bubble on a NACA-0012 airfoil at Rec=5×104 at 5° of incidence have been performed with an IB code and a commercial code using body fitted grids. Several Subgrid Scale (SGS) models have been implemented in both codes and their performance evaluated. For the two-dimensional simulations with the IB method the results show good agreement with DNS benchmark data for the pressure coefficient Cp and the friction coefficient Cf but only when using dissipative numerical schemes. There is evidence that this behavior can be attributed to the ability of dissipative schemes to damp numerical noise coming from the IB. For the three-dimensional simulations the results show a good prediction of the separation point, but inaccurate prediction of the reattachment point unless full DNS resolution is used. The commercial code shows good agreement with the DNS benchmark data in both two and three-dimensional simulations, but the presence of significant, unquantified numerical dissipation prevents a conclusive assessment of the actual prediction capabilities of very coarse LES with low order schemes in general case.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2&gt;&lt;a href=&quot;https://www.sciencedirect.com/science/article/pii/S0045793015002303&quot;&gt;A numerical dissipation rate and viscosity in flow simulations with realistic geometry using low-order compressible Navier–Stokes solvers&lt;/a&gt;&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Recently it has become increasingly clear that the role of numerical dissipation, originating from the discretization of governing equations of fluid dynamics, rarely can be ignored regardless of the formal order of accuracy of a numerical scheme used in either explicit or implicit Large Eddy Simulations (LES). The numerical dissipation inhibits the predictive capabilities of LES whenever it is of the same order of magnitude or larger than the sub-grid-scale (SGS) dissipation. The need to estimate the numerical dissipation is most pressing for low-order methods employed by commercial CFD codes. Following the recent work of Schranner et al. (2015) the equations and procedure for estimating the numerical dissipation rate and the numerical viscosity in a commercial code are presented. The method allows to compute the numerical dissipation rate and numerical viscosity in the physical space for arbitrary sub-domains in a self-consistent way, using only information provided by the code in question. The procedure has been previously tested for a three-dimensional Taylor–Green vortex flow in a simple cubic domain and compared with benchmark results obtained using an accurate, incompressible spectral solver. In the present work the procedure is applied for the first time to a realistic flow configuration, specifically to a laminar separation bubble flow over a NACA 0012 airfoil at Ma=0.5 and Re=50&amp;#39;000 . The method appears to be quite robust and its application reveals that for the code and the flow in question the numerical dissipation can be significantly larger than the viscous dissipation or the dissipation of the classical Smagorinsky SGS model.&lt;/p&gt;
+&lt;/blockquote&gt;
 </content>
  </entry>
  
