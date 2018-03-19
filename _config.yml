@@ -9,7 +9,7 @@ permalink:        pretty
 # Setup
 title:            Dr. G
 tagline:          'Not the useful kind'
-description:      'Not the useful kind... Currently PostDoc @ Caltech/JPL.'
+description:      'Not the useful kind... Currently a PostDoc @ Caltech/JPL.'
 url:              http://www.castiglionis.com
 baseurl:          /
 
@@ -22,7 +22,7 @@ paginate:         1
 excerpt_separator: <!--more-->
 
 # Custom vars
-version:          1.0.0
+version:          1.0.2
 
   # # scholar
   # scholar:

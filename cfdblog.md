@@ -3,7 +3,8 @@ layout: page
 title: CFD Blog
 ---
 
-As of now mostly a collection of fun pictures and movies.
+This blog is a collection of clips or figures which have been obtained from exploratory work, test cases, or published results.
+
 
 <div class="posts">
   {% for post in site.posts %}
@@ -13,7 +14,7 @@ As of now mostly a collection of fun pictures and movies.
         {{ post.title }}
       </a><span class="post-date">{{ post.date | date_to_string }}</span>
     <!-- </li> -->
-    <p>{{ post.excerpt }}</p>   
-  </div>  
+    <p>{{ post.excerpt }}</p>
+  </div>
   {% endfor %}
 </div>
