@@ -4,7 +4,7 @@
  <title>Dr. G</title>
  <link href="http://www.castiglionis.com/atom.xml" rel="self"/>
  <link href="http://www.castiglionis.com/"/>
- <updated>2018-03-25T14:28:00-07:00</updated>
+ <updated>2018-12-27T17:39:31+00:00</updated>
  <id>http://www.castiglionis.com</id>
  <author>
    <name>Giacomo Castiglioni</name>
@@ -15,7 +15,7 @@
  <entry>
    <title>Exploratory work - Discontinuous Galerkin with shock capturing.</title>
    <link href="http://www.castiglionis.com/2016/06/01/cosn/"/>
-   <updated>2016-06-01T00:00:00-07:00</updated>
+   <updated>2016-06-01T00:00:00+01:00</updated>
    <id>http://www.castiglionis.com/2016/06/01/cosn</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;http://www.castiglionis.com/documents/burgers_mix_10_5_LG_dea_shock.gif&quot; alt=&quot;cosn&quot;&gt;&lt;/p&gt;
 
@@ -30,7 +30,7 @@
  <entry>
    <title>Published - LES of an airfoil at moderate Reynolds numbers.</title>
    <link href="http://www.castiglionis.com/2015/05/01/naca/"/>
-   <updated>2015-05-01T00:00:00-07:00</updated>
+   <updated>2015-05-01T00:00:00+01:00</updated>
    <id>http://www.castiglionis.com/2015/05/01/naca</id>
    <content type="html">&lt;!-- ![naca](http://www.castiglionis.com/documents/qt_50_2.png) --&gt;
 
