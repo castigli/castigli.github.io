@@ -32,6 +32,11 @@ h2 {
   font-size: 3.5rem;
 }
 
+h3 {
+  font-size: 1.6rem;
+/*  font-size: 40vm;*/
+}
+
 .subheading {
   text-transform: uppercase;
   font-weight: 500;
@@ -154,6 +159,33 @@ a:hover, a:focus, a:active {
 .dev-logo:hover {
 /*  color: #183153;*/
   filter: invert(14%) sepia(20%) saturate(2960%) hue-rotate(183deg) brightness(96%) contrast(91%);
+}
+
+.fi {
+  filter: grayscale(100%);
+  filter: gray; /* IE 6-9 */
+  transition: all 0.4s ease-in-out;
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown{
+  display: none;
+  position: absolute;
+  width: 100%;
+  overflow:auto;
+  padding: 4px 4px 4px 4px;
+  z-index: 1;
+}
+
+
+.fi:hover .dropdown{
+  display: block;
+}
+
+.fi:hover {
+  filter: none;
+/*  transform: scale(1.05);*/
 }
 
 /*light blue #74C0FC
