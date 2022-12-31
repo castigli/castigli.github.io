@@ -1,5 +1,5 @@
 body {
-  font-family: 'Open Sans', serif;
+  font-family: 'Montserrat', serif;
   padding-top: 54px;
   color: #868e96;
 }
@@ -17,15 +17,15 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Saira Extra Condensed', serif;
+  font-family: 'Montserrat', serif;
   font-weight: 700;
   text-transform: uppercase;
   color: #343a40;
 }
 
 h1 {
-  font-size: 6rem;
-  line-height: 5.5rem;
+  font-size: 5rem;
+  line-height: 4.5rem;
 }
 
 h2 {
@@ -37,11 +37,15 @@ h3 {
 /*  font-size: 40vm;*/
 }
 
+h6 {
+  font-weight: 1000;
+}
+
 .subheading {
   text-transform: uppercase;
   font-weight: 500;
-  font-family: 'Saira Extra Condensed', serif;
-  font-size: 1.35rem;
+  font-family: 'Montserrat', serif;
+  font-size: 1.25rem;
 }
 
 .list-social-icons a {
