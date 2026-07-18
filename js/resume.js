@@ -25,4 +25,12 @@
     target: '#sideNav'
   });
 
+  // Show back-to-top button once the about section is scrolled past
+  var toggleBackToTop = function() {
+    var pastAbout = $(window).scrollTop() > $('#about').outerHeight() * 0.5;
+    $('.back-to-top').toggleClass('show', pastAbout);
+  };
+  $(window).on('scroll', toggleBackToTop);
+  toggleBackToTop();
+
 })(jQuery); // End of use strict

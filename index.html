@@ -79,11 +79,11 @@
           <p class="mb-1">
 
 
-    My background is in computational fluid dynamics and, during my career, I transitioned from being a domain scientist to my current role as an HPC software engineer at ETHZ and as a freelancer. <br>
+    My background is in computational fluid dynamics and, during my career, I transitioned from being a domain scientist to HPC software engineering and my current role as a senior researcher at Huawei working on the AI software stack and compilation. <br>
 
     I enjoy understanding the interaction among different layers of the software stack and the hardware and how it affects performance. <br>
 
-    Lately I started to get interested in code generation and domain specific languages in the context of optimizing kernels programmatically for different hardware.
+    In the past few years I have been focusing on compilers, code generation, and domain specific languages in the context of optimizing kernels and whole programs programmatically for different hardware.
 
 
     </p>
@@ -104,13 +104,26 @@ In 2016, I was a postdoctoral scholar at the California Institute of Technology 
 When I moved to Imperial College (UK) in 2018, I worked on high-order unstructured methods for shock-wave boundary layer interactions.
 Here I started my transition from domain scientist to software developer working on the open-source spectral finite element solver <a href="https://www.nektar.info/community/development-team" target="_blank" rel="noopener noreferrer">Nektar++</a>.
 Among other topics, I ported a few kernels that utilize the single instruction multiple data (SIMD) paradigm for which I wrote a simple,
-header-only SIMD library.
+header-only SIMD library. <br>
+
+In 2020, I moved to Switzerland to join the Blue Brain Project at EPFL as an HPC software performance engineer, and in 2021 ETH Zurich as an HPC software engineer for QuICC, a software for dynamo (magnetohydrodynamics) simulations, where I designed a domain-specific, high-level MLIR dialect to optimize its computational graph.
+From 2024 to 2026, I was a research software engineer at the Swiss National Supercomputing Centre (CSCS), exploring code generation pipelines for JAX and PyTorch (OpenXLA, Triton, IREE) and profiling and optimizing applications on the CSCS supercomputing infrastructure. <br>
+
+Since March 2026, I am a senior researcher at Huawei in Zurich, working on the AI software stack and compilation.
 
 
 
     </p>
 
           <ul class="list-inline list-social-icons mb-0">
+            <li class="list-inline-item">
+              <a href="cv/GiacomoCastiglioniCV.pdf" download="GiacomoCastiglioniCV.pdf" title="Download CV">
+                <span class="fa-stack fa-lg cv-download">
+                  <i class="fa-solid fa-square fa-stack-2x"></i>
+                  <i class="fa-solid fa-download fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
             <li class="list-inline-item">
               <a href="https://scholar.google.com/citations?user=qAqsm6EAAAAJ&hl=en&oi=sra" target="_blank" rel="noopener noreferrer">
                 <span class="fa-stack fa-lg">
@@ -157,14 +170,39 @@ header-only SIMD library.
 
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
+              <h3 class="mb-0">Senior Researcher</h3>
+              <div class="subheading mb-3">Huawei, Zurich, Switzerland</div>
+              <p>AI software stack and compilation.</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">March 2026 - Present</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Research Software Engineer</h3>
+              <div class="subheading mb-3">Swiss National Supercomputing Centre (CSCS/ETH), Zurich, Switzerland</div>
+              <p>Exploring different code generation pipelines for JAX and PyTorch (OpenXLA, Triton, IREE). <br>
+              Profiling and optimizing supported applications on CSCS supercomputing infrastructure. <br>
+              Wrote passes in MLIR to optimize the computational graph of a domain-specific, high-level MLIR dialect.</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">October 2024 - February 2026</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
               <h3 class="mb-0">HPC Software Engineer</h3>
               <div class="subheading mb-3">Eidgenössische Technische Hochschule Zürich, Zurich, Switzerland</div>
               <p>HPC Software Engineer for QuICC, a software for dynamo (magnetohydrodynamics) simulations. <br>
-              Refactoring for hybrid parallelization (mpi+GPU/threads). <br>
+              Designed and wrote a domain-specific, high-level MLIR dialect to optimize the computational graph. <br>
+              Refactored for hybrid parallelization (mpi+GPU/threads). <br>
               Refactored building (CMake) and testing infrastructure (CI/CD).</p>
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">October 2021 - Present</span>
+              <span class="text-primary">October 2021 - September 2024</span>
             </div>
           </div>
 
@@ -173,11 +211,11 @@ header-only SIMD library.
               <h3 class="mb-0">Freelance Software Engineer</h3>
               <div class="subheading mb-3">Zurich, Switzerland</div>
               <p>Freelance Software Engineer working on the C++ based, open-source, spectral finite element framework <a href="https://www.nektar.info/community/development-team" target="_blank" rel="noopener noreferrer">Nektar++</a>. <br>
-              Implementing a DSL using MLIR framework for generating performance critical kernels for different back-ends. <br>
+              Implemented a DSL using MLIR framework for generating performance critical kernels for different back-ends. <br>
               Implemented Arm SVE back-end for in-house SIMD library.</p>
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">October 2021 - Present</span>
+              <span class="text-primary">October 2021 - December 2023</span>
             </div>
           </div>
 
@@ -204,8 +242,8 @@ header-only SIMD library.
             <div class="resume-content mr-auto">
               <h3 class="mb-0">Research Associate</h3>
               <div class="subheading mb-3">Imperial College, London, UK</div>
-              <p>Senior developer of the C++ based, open-source, spectral finite elementframework  <a href="https://www.nektar.info/community/development-team" target="_blank" rel="noopener noreferrer">Nektar++</a>. <br>
-
+              <p>Senior developer of the C++ based, open-source, spectral finite element framework <a href="https://www.nektar.info/community/development-team" target="_blank" rel="noopener noreferrer">Nektar++</a>. <br>
+              Optimization of compressible solver with in-house SIMD library. <br>
               High fidelity simulations (LES/DNS) to predict shock wave unsteadiness in turbofan intake cowls at off-design conditions. <br>
               Implementation and validation of shock capturing schemes in an open-source high-order finite element CFD software.</p>
             </div>
@@ -500,7 +538,15 @@ header-only SIMD library.
         </div>
       </section> -->
 
+      <footer class="text-muted small p-3 p-lg-5 pt-0 pt-lg-0">
+        Last updated: July 18, 2026
+      </footer>
+
     </div>
+
+    <a class="back-to-top js-scroll-trigger" href="#page-top" title="Back to top">
+      <i class="fa-solid fa-chevron-up"></i>
+    </a>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
