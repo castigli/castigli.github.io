@@ -93,6 +93,13 @@ h6 {
   font-size: 3rem;
 }
 
+/* profile picture at the top of the about section, mobile only */
+.img-profile-mobile {
+  max-width: 10rem;
+  max-height: 10rem;
+  border: 0.25rem solid #868e96;
+}
+
 /* back-to-top button: hidden while the about section is in view */
 .back-to-top {
   position: fixed;
