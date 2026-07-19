@@ -1,6 +1,6 @@
 # castigli.github.io
 
-Giacomo Castiglioni's personal websyte, live at [www.castiglionis.com](https://www.castiglionis.com).
+Giacomo Castiglioni's personal website, live at [www.castiglionis.com](https://www.castiglionis.com).
 
 Static site hosted on GitHub Pages. Based on the [Start Bootstrap - Resume](https://startbootstrap.com/template-overviews/resume/) template (MIT licensed) by Blackrock Digital.
 
